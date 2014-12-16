@@ -8,12 +8,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-#include <iostream.h>
+#include <iostream>
 
 #include "types.h"
 #include "global.h"
 #include "utils/mypthread.h"
 #include "utils/PersistentFifo.h"
+
+using namespace std;
 
 PersistentFifo::PersistentFifo (bool reload, char *baseName) {
   fileNameLength = strlen(baseName)+5;

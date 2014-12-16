@@ -3,14 +3,14 @@ LIBS:=
 
 include $(BASEDIR)/../config.make
 
-UTILS-OBJ:=string.o debug.o url.o connexion.o text.o \
+UTILS-OBJ:=lbstring.o debug.o url.o connexion.o text.o \
     histogram.o webserver.o PersistentFifo.o hashDup.o mypthread.o
 INTERF-OBJ:=input.o useroutput.o output.o
 FETCH-OBJ:=site.o sequencer.o hashTable.o checker.o file.o \
 	fetchOpen.o fetchPipe.o
 MAIN-OBJ:=global.o main.o
 
-ABS-UTILS-OBJ:=utils/string.o utils/debug.o utils/url.o \
+ABS-UTILS-OBJ:=utils/lbstring.o utils/debug.o utils/url.o \
     utils/connexion.o utils/text.o utils/histogram.o \
     utils/webserver.o utils/PersistentFifo.o utils/hashDup.o \
     utils/mypthread.o

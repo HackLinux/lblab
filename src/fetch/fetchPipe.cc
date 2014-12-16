@@ -2,7 +2,7 @@
 // Sebastien Ailleret
 // 15-11-99 -> 19-11-01
 
-#include <iostream.h>
+#include <iostream>
 #include <unistd.h>
 #include <errno.h>
 #include <string.h>
@@ -17,7 +17,7 @@
 #include "global.h"
 #include "utils/url.h"
 #include "utils/text.h"
-#include "utils/string.h"
+#include "utils/lbstring.h"
 #include "utils/connexion.h"
 #include "fetch/site.h"
 #include "fetch/file.h"

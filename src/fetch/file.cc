@@ -3,7 +3,7 @@
 // 14-12-99 -> 19-03-02
 
 #include <unistd.h>
-#include <iostream.h>
+#include <iostream>
 #include <assert.h>
 #include <string.h>
 #include <ctype.h>
@@ -17,7 +17,7 @@
 #include "global.h"
 #include "utils/text.h"
 #include "utils/url.h"
-#include "utils/string.h"
+#include "utils/lbstring.h"
 #include "utils/Vector.h"
 #include "fetch/site.h"
 #include "fetch/file.h"

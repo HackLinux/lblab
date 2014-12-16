@@ -4,7 +4,7 @@
 
 #include "config.h"
 
-#include <iostream.h>
+#include <iostream>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -15,6 +15,9 @@
 #include "types.h"
 #include "utils/hashDup.h"
 #include "utils/connexion.h"
+
+using namespace std;
+
 
 /* constructor */
 hashDup::hashDup (ssize_t size, char *init, bool scratch) {

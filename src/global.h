@@ -19,7 +19,7 @@
 #include "utils/hashDup.h"
 #include "utils/url.h"
 #include "utils/Vector.h"
-#include "utils/string.h"
+#include "utils/lbstring.h"
 #include "utils/PersistentFifo.h"
 #include "utils/ConstantSizedFifo.h"
 #include "utils/SyncFifo.h"

@@ -9,7 +9,7 @@
 
 #include "types.h"
 #include "utils/url.h"
-#include "utils/string.h"
+#include "utils/lbstring.h"
 #include "utils/Vector.h"
 #include "fetch/site.h"
 

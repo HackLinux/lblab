@@ -5,14 +5,14 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <errno.h>
-#include <iostream.h>
+#include <iostream>
 #include <string.h>
 #include <ctype.h>
 
 #include "options.h"
 
 #include "utils/text.h"
-#include "utils/string.h"
+#include "utils/lbstring.h"
 
 /* lowercase a char */
 char lowerCase (char a) {

@@ -12,7 +12,7 @@
 
 #include <string.h>
 #include <unistd.h>
-#include <iostream.h>
+#include <iostream>
 #include <netdb.h>
 #include <sys/socket.h>
 #include <sys/types.h>
@@ -31,6 +31,8 @@
 #include "utils/debug.h"
 #include "utils/histogram.h"
 #include "interf/useroutput.h"
+
+using namespace std;
 
 static char *readRequest (int fds);
 static void manageAns (int fds, char *req);

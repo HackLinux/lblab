@@ -7,7 +7,7 @@
 #include <netinet/in.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <iostream.h>
+#include <iostream>
 #include <string.h>
 #include <adns.h>
 #include <netdb.h>
@@ -31,6 +31,8 @@
 ///////////////////////////////////////////////////////////
 // Struct global
 ///////////////////////////////////////////////////////////
+//
+using namespace std;
 
 // define all the static variables
 time_t global::now;
